@@ -1,5 +1,13 @@
 import type { Skin, ThemeMode } from "./types";
 
+// Universal game-state overlay: deliberately outside the thematic palettes so
+// correct/incorrect/highlight read instantly on every skin and theme.
+export const STATE_OVERLAY = {
+  correct: "#21c063",
+  incorrect: "#e23d3d",
+  highlight: "#f0a92e"
+};
+
 type LayerPaint = {
   landFill: string;
   landBorder: string;

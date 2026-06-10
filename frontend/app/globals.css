@@ -326,6 +326,184 @@ dd {
   cursor: pointer;
 }
 
+.game-panel {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.game-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.game-header h2 {
+  margin: 0;
+}
+
+.game-meta {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.game-prompt {
+  display: grid;
+  gap: 10px;
+}
+
+.game-prompt > span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.game-prompt > strong {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.game-prompt input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.answer-list {
+  display: grid;
+  gap: 6px;
+}
+
+.answer-list button,
+.type-answer button,
+.submit-year,
+.start-button,
+.quit-button {
+  min-height: 38px;
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel-solid);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 650;
+  text-align: left;
+}
+
+.answer-list button:hover,
+.type-answer button:hover:enabled,
+.submit-year:hover,
+.start-button:hover:enabled,
+.quit-button:hover {
+  border-color: var(--accent);
+}
+
+.word-bank {
+  max-height: 38vh;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.type-answer {
+  display: grid;
+  gap: 8px;
+}
+
+.type-answer input {
+  min-height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel-solid);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+}
+
+.type-answer button:disabled,
+.start-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.submit-year,
+.start-button {
+  background: var(--accent);
+  border-color: transparent;
+  color: #ffffff;
+  text-align: center;
+}
+
+.quit-button {
+  text-align: center;
+  color: var(--muted);
+}
+
+.game-feedback {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.game-feedback.correct {
+  border-color: #21c063;
+  background: color-mix(in srgb, #21c063 14%, transparent);
+}
+
+.game-feedback.incorrect {
+  border-color: #e23d3d;
+  background: color-mix(in srgb, #e23d3d 12%, transparent);
+}
+
+.game-feedback strong {
+  font-size: 16px;
+}
+
+.game-feedback p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.game-feedback .points {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.result-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.result-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.result-list li.correct .result-points {
+  color: #21c063;
+  font-weight: 700;
+}
+
+.result-list li.incorrect .result-points {
+  color: #e23d3d;
+  font-weight: 700;
+}
+
+.result-target {
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 900px) {
   .app-shell {
     overflow: auto;
