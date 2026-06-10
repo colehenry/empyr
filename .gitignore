@@ -18,3 +18,6 @@ node_modules/
 
 # Next.js build output
 frontend/.next/
+
+# Raw data (large source files)
+data/raw/
