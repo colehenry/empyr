@@ -1,0 +1,2739 @@
+{
+  "generated_by": "scripts/pipeline/build_border_states.py",
+  "source_licenses": [
+    {
+      "name": "Cliopatria",
+      "license": "CC BY 4.0",
+      "repo": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "doi": "10.5281/zenodo.14714684",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr."
+    },
+    {
+      "name": "Natural Earth",
+      "license": "Public domain",
+      "url": "https://www.naturalearthdata.com/",
+      "attribution": "No attribution required."
+    }
+  ],
+  "findings": [],
+  "border_states": [
+    {
+      "board_id": "europe-med-1000",
+      "region": "Europe + Mediterranean",
+      "valid_from": 1000,
+      "valid_to": 1000,
+      "confidence": "source-derived; editorial review pending",
+      "change_note": "Editorial change note pending owner review.",
+      "geojson_url": "/data/border-states/europe-med-1000.geojson.gz",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr.",
+      "source": {
+        "name": "Cliopatria",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.14714684",
+        "artifact": "data/processed/border-states/_intermediate_1000_display.geojson",
+        "simplification": "display detail from clipped source; no simplify and no -clean"
+      },
+      "territories": [
+        {
+          "canonical_name": "Barghawata Conference",
+          "wikidata_qid": "Q7903",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Gallura",
+          "wikidata_qid": "Q2723760",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Logudoro",
+          "wikidata_qid": "Q1761381",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Arborea",
+          "wikidata_qid": "Q1241847",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Cagliari",
+          "wikidata_qid": "Q2297073",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Brycheiniog",
+          "wikidata_qid": "Q954585",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Gwynedd",
+          "wikidata_qid": "Q816814",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Gwent",
+          "wikidata_qid": "Q2594661",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Amalfi",
+          "wikidata_qid": "Q686312",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Emirate of Sicily",
+          "wikidata_qid": "Q118780154",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Powys",
+          "wikidata_qid": "Q769782",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Morgannwg",
+          "wikidata_qid": "Q13131807",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Castile",
+          "wikidata_qid": "Q179293",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Strathclyde",
+          "wikidata_qid": "Q124661",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Brythons",
+          "wikidata_qid": "Q849967",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Emirate of Nekor",
+          "wikidata_qid": "Q1709337",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Alba",
+          "wikidata_qid": "Q1991742",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Brythonic Kingdoms)",
+          "wikidata_qid": "Q849967",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of England",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of England)",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Georgia",
+          "wikidata_qid": "Q4962",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Ribagorza",
+          "wikidata_qid": "Q1297894",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Holy Roman Empire",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Benevento",
+          "wikidata_qid": "Q267816",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Toulouse",
+          "wikidata_qid": "Q1334322",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Gascony",
+          "wikidata_qid": "Q2295939",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Le\u00f3n",
+          "wikidata_qid": "Q175276",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Bl\u00f4is",
+          "wikidata_qid": "Q19336869",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Papal States",
+          "wikidata_qid": "Q170174",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Poland)",
+          "wikidata_qid": "Q577867",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Arles",
+          "wikidata_qid": "Q3271735",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Pallars",
+          "wikidata_qid": "Q1541787",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Poland",
+          "wikidata_qid": "Q577867",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kievan Rus'",
+          "wikidata_qid": "Q1108445",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Vexin",
+          "wikidata_qid": "Q1476089",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Allegiance of Duchy of Aquitaine to Kingdom of France)",
+          "wikidata_qid": "Q7703611",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Fatimid Caliphate",
+          "wikidata_qid": "Q160307",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Flanders",
+          "wikidata_qid": "Q157070",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Maine",
+          "wikidata_qid": "Q732738",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Vermandois",
+          "wikidata_qid": "Q26385",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Caliphate of C\u00f3rdoba",
+          "wikidata_qid": "Q171740",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Capua",
+          "wikidata_qid": "Q1280122",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Rouergue",
+          "wikidata_qid": "Q590016",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Denmark",
+          "wikidata_qid": "Q756617",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of France)",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Berga",
+          "wikidata_qid": "Q15487",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Old Kingdom of Norway",
+          "wikidata_qid": "Q202266",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Salerno",
+          "wikidata_qid": "Q1065299",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Champagne",
+          "wikidata_qid": "Q546266",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Anjou",
+          "wikidata_qid": "Q2991084",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Aquitaine",
+          "wikidata_qid": "Q7703611",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Denmark)",
+          "wikidata_qid": "Q756617",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Naples",
+          "wikidata_qid": "Q1051600",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Holy Roman Empire)",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Brittany",
+          "wikidata_qid": "Q71747",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Normandy",
+          "wikidata_qid": "Q842091",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of France",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Hamdanid Emirates",
+          "wikidata_qid": "Q837187",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Vaspurakan",
+          "wikidata_qid": "Q5228183",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Bohemia",
+          "wikidata_qid": "Q2162698",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "First Bulgarian Empire",
+          "wikidata_qid": "Q203817",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Buyid Dynasty",
+          "wikidata_qid": "Q12536",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Barcelona",
+          "wikidata_qid": "Q7038",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Scandinavian minor kingdoms",
+          "wikidata_qid": "Q213649",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Rosell\u00f3n",
+          "wikidata_qid": "Q13522657",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Venice",
+          "wikidata_qid": "Q4948",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Ampuria",
+          "wikidata_qid": "Q1541699",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Urgell",
+          "wikidata_qid": "Q1514510",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Hungary",
+          "wikidata_qid": "Q171150",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Osona",
+          "wikidata_qid": "Q1541779",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Croatia",
+          "wikidata_qid": "Q858841",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Sweden",
+          "wikidata_qid": "Q34",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Bagratid Armenia",
+          "wikidata_qid": "Q2622868",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Viking settlements",
+          "wikidata_qid": "Q12567",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Byzantine Empire",
+          "wikidata_qid": "Q112039853",
+          "type": "POLITY",
+          "in_play": true
+        }
+      ]
+    },
+    {
+      "board_id": "europe-med-1200",
+      "region": "Europe + Mediterranean",
+      "valid_from": 1200,
+      "valid_to": 1200,
+      "confidence": "source-derived; editorial review pending",
+      "change_note": "Editorial change note pending owner review.",
+      "geojson_url": "/data/border-states/europe-med-1200.geojson.gz",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr.",
+      "source": {
+        "name": "Cliopatria",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.14714684",
+        "artifact": "data/processed/border-states/_intermediate_1200_display.geojson",
+        "simplification": "display detail from clipped source; no simplify and no -clean"
+      },
+      "territories": [
+        {
+          "canonical_name": "Giudicato of Gallura",
+          "wikidata_qid": "Q2723760",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Viking settlements",
+          "wikidata_qid": "Q12567",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kievan Rus'",
+          "wikidata_qid": "Q1108445",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Sweden",
+          "wikidata_qid": "Q34",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Arborea",
+          "wikidata_qid": "Q1241847",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Pereyaslavl",
+          "wikidata_qid": "Q1261908",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Logudoro",
+          "wikidata_qid": "Q1761381",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Chernigov",
+          "wikidata_qid": "Q1322662",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Alba",
+          "wikidata_qid": "Q1991742",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Brythons",
+          "wikidata_qid": "Q849967",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Ryazan",
+          "wikidata_qid": "Q269109",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Koknese",
+          "wikidata_qid": "Q2502248",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Drutsk",
+          "wikidata_qid": "Q2596884",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Jersika",
+          "wikidata_qid": "Q1687929",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Rostov-Suzdal",
+          "wikidata_qid": "Q83546",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Navarre",
+          "wikidata_qid": "Q200262",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Sicily",
+          "wikidata_qid": "Q188586",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kimek-Kipchak confederation",
+          "wikidata_qid": "Q2477776",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Papal States",
+          "wikidata_qid": "Q170174",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Genoa",
+          "wikidata_qid": "Q174306",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Almoravid Dynasty",
+          "wikidata_qid": "Q75613",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Champagne",
+          "wikidata_qid": "Q546266",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Brythonic Kingdoms)",
+          "wikidata_qid": "Q849967",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Bl\u00f4is",
+          "wikidata_qid": "Q19336869",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Nevers",
+          "wikidata_qid": "Q2070440",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Gwynedd",
+          "wikidata_qid": "Q816814",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Powys Wenwynwyn",
+          "wikidata_qid": "Q2670639",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Powys Fadog",
+          "wikidata_qid": "Q2564694",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Opole",
+          "wikidata_qid": "Q661980",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Mann",
+          "wikidata_qid": "Q459188",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Venice",
+          "wikidata_qid": "Q4948",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Portugal",
+          "wikidata_qid": "Q45670",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Ampuria",
+          "wikidata_qid": "Q1541699",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Holy Roman Empire)",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Kiev",
+          "wikidata_qid": "Q1483430",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Minsk",
+          "wikidata_qid": "Q2662372",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Banate of Bosnia",
+          "wikidata_qid": "Q3627069",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Turov and Pinsk",
+          "wikidata_qid": "Q671362",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Denmark)",
+          "wikidata_qid": "Q756617",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Greater Poland",
+          "wikidata_qid": "Q1515009",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of France)",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Tripoli",
+          "wikidata_qid": "Q272033",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Castile",
+          "wikidata_qid": "Q179293",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Flanders",
+          "wikidata_qid": "Q157070",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Vermandois",
+          "wikidata_qid": "Q26385",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Almohad Caliphate",
+          "wikidata_qid": "Q199688",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Denmark",
+          "wikidata_qid": "Q756617",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Novgorod Republic",
+          "wikidata_qid": "Q151536",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Arles",
+          "wikidata_qid": "Q3271735",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Pisa",
+          "wikidata_qid": "Q1365493",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Silesia",
+          "wikidata_qid": "Q568638",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Smolensk",
+          "wikidata_qid": "Q1483495",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Kuyavia",
+          "wikidata_qid": "Q11750543",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Antioch",
+          "wikidata_qid": "Q235030",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of France",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Toulouse",
+          "wikidata_qid": "Q1334322",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Berga",
+          "wikidata_qid": "Q15487",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Le\u00f3n",
+          "wikidata_qid": "Q175276",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Boulogne",
+          "wikidata_qid": "Q1431527",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Old Kingdom of Norway",
+          "wikidata_qid": "Q202266",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Holy Roman Empire",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Hungary",
+          "wikidata_qid": "Q171150",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of England)",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Jerusalem",
+          "wikidata_qid": "Q55502",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Urgell",
+          "wikidata_qid": "Q1514510",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Halych",
+          "wikidata_qid": "Q3403551",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Georgia",
+          "wikidata_qid": "Q154667",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Byzantine Empire",
+          "wikidata_qid": "Q112039853",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Cyprus",
+          "wikidata_qid": "Q213638",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Duchies of Poland)",
+          "wikidata_qid": "Q2984183",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ayyubid Sultanate",
+          "wikidata_qid": "Q180114",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Volhynia",
+          "wikidata_qid": "Q680472",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Sandomierz",
+          "wikidata_qid": "Q16933165",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Pallars Sobir\u00e0",
+          "wikidata_qid": "Q12719",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crown of Aragon",
+          "wikidata_qid": "Q204920",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Halych-Volhynia occupation",
+          "wikidata_qid": "Q239502",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Serbia",
+          "wikidata_qid": "Q241748",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Sultanate of Rum",
+          "wikidata_qid": "Q975405",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Wroc\u0142aw",
+          "wikidata_qid": "Q568638",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Hamdanid Emirates",
+          "wikidata_qid": "Q837187",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Second Bulgarian Empire",
+          "wikidata_qid": "Q420759",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Angevin Empire",
+          "wikidata_qid": "Q538677",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Great Seljuk Empire",
+          "wikidata_qid": "Q3708094",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Armenian Kingdom of Cilicia",
+          "wikidata_qid": "Q335088",
+          "type": "POLITY",
+          "in_play": true
+        }
+      ]
+    },
+    {
+      "board_id": "europe-med-1400",
+      "region": "Europe + Mediterranean",
+      "valid_from": 1400,
+      "valid_to": 1400,
+      "confidence": "source-derived; editorial review pending",
+      "change_note": "Editorial change note pending owner review.",
+      "geojson_url": "/data/border-states/europe-med-1400.geojson.gz",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr.",
+      "source": {
+        "name": "Cliopatria",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.14714684",
+        "artifact": "data/processed/border-states/_intermediate_1400_display.geojson",
+        "simplification": "display detail from clipped source; no simplify and no -clean"
+      },
+      "territories": [
+        {
+          "canonical_name": "Kingdom of Portugal",
+          "wikidata_qid": "Q45670",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Styria",
+          "wikidata_qid": "Q580447",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Orange",
+          "wikidata_qid": "Q2281221",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Florence",
+          "wikidata_qid": "Q148540",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Pskov Republic",
+          "wikidata_qid": "Q317078",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Naples",
+          "wikidata_qid": "Q173065",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Menteshe",
+          "wikidata_qid": "Q1400572",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Brabant",
+          "wikidata_qid": "Q751868",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Papal States",
+          "wikidata_qid": "Q170174",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Scotland",
+          "wikidata_qid": "Q230791",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Saruhan",
+          "wikidata_qid": "Q1968654",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Aydin",
+          "wikidata_qid": "Q717112",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Foix",
+          "wikidata_qid": "Q1481436",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Urgell",
+          "wikidata_qid": "Q1514510",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Teutonic Order",
+          "wikidata_qid": "Q48189",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Zayyanid dynasty",
+          "wikidata_qid": "Q307697",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Hafsid Dynasty",
+          "wikidata_qid": "Q752662",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Marinid Sultanate",
+          "wikidata_qid": "Q582861",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Ascania",
+          "wikidata_qid": "Q168352",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Trier",
+          "wikidata_qid": "Q1794352",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Brittany",
+          "wikidata_qid": "Q71747",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Cyprus",
+          "wikidata_qid": "Q213638",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Germiyanids",
+          "wikidata_qid": "Q1324889",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Novgorod Republic",
+          "wikidata_qid": "Q151536",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Sweden",
+          "wikidata_qid": "Q34",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Smolensk",
+          "wikidata_qid": "Q1483495",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Emirate of Granada",
+          "wikidata_qid": "Q238445",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Navarre",
+          "wikidata_qid": "Q200262",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Giudicato of Arborea",
+          "wikidata_qid": "Q1241847",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Blue Horde",
+          "wikidata_qid": "Q644979",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Teke",
+          "wikidata_qid": "Q373988",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Aquitaine",
+          "wikidata_qid": "Q7703611",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Tocco",
+          "wikidata_qid": "Q149846",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Theodoro",
+          "wikidata_qid": "Q874954",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Auvergne",
+          "wikidata_qid": "Q1152",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Dulkadir",
+          "wikidata_qid": "Q1264808",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of B\u00e9arn",
+          "wikidata_qid": "Q213763",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Bourbon",
+          "wikidata_qid": "Q58389",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Bohemia",
+          "wikidata_qid": "Q42585",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Armagnac",
+          "wikidata_qid": "Q676745",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Margraviate of Moravia",
+          "wikidata_qid": "Q2670751",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Patriarchate of Aquileia",
+          "wikidata_qid": "Q836894",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Comtat Venaissin",
+          "wikidata_qid": "Q1122980",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of P\u00e9rigord",
+          "wikidata_qid": "Q1947408",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Isfendiyar",
+          "wikidata_qid": "Q2096678",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Touraine",
+          "wikidata_qid": "Q605051",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Bohemia)",
+          "wikidata_qid": "Q42585",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Mamluk Sultanate",
+          "wikidata_qid": "Q282428",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Ragusa",
+          "wikidata_qid": "Q208169",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Karaman",
+          "wikidata_qid": "Q1469100",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Moldavia",
+          "wikidata_qid": "Q10957559",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ramadanid Emirate",
+          "wikidata_qid": "Q2261321",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Saxony",
+          "wikidata_qid": "Q156199",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Tver",
+          "wikidata_qid": "Q2288",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Denmark",
+          "wikidata_qid": "Q756617",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Earldom of Desmond",
+          "wikidata_qid": "Q2991012",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Vassalage of Kingdom of Georgia to Timurid Empire)",
+          "wikidata_qid": "Q154667",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Golden Horde",
+          "wikidata_qid": "Q79965",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crown of Aragon",
+          "wikidata_qid": "Q204920",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Luxembourg",
+          "wikidata_qid": "Q122293",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Bosnia",
+          "wikidata_qid": "Q2980623",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Holy Roman Empire)",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Margraviate of Brandenburg",
+          "wikidata_qid": "Q148499",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of France)",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Denmark)",
+          "wikidata_qid": "Q756617",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ottoman Empire",
+          "wikidata_qid": "Q12560",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Alliance between Golden Horde and Timurid Empire)",
+          "wikidata_qid": "Q79965",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "County of Savoy",
+          "wikidata_qid": "Q1232887",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Wallachia",
+          "wikidata_qid": "Q171393",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Valois-Anjou",
+          "wikidata_qid": "Q1716871",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Genoa",
+          "wikidata_qid": "Q174306",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Burgundy",
+          "wikidata_qid": "Q4712",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Bl\u00f4is",
+          "wikidata_qid": "Q19336869",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Personal union of Kingdom of Denmark with Kingdom of Sweden)",
+          "wikidata_qid": "Q202266",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "(Allegiance of Teutonic Order to Holy Roman Empire)",
+          "wikidata_qid": "Q48189",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Kingdom of Poland",
+          "wikidata_qid": "Q577867",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Polish-Lithuania Kingdom)",
+          "wikidata_qid": "Q194355",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Vassalage of Kingdom of Bohemia to Holy Roman Empire)",
+          "wikidata_qid": "Q42585",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Swiss Confederation",
+          "wikidata_qid": "Q39",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Personal union of Kingdom of Denmark with Old Kingdom of Norway)",
+          "wikidata_qid": "Q202266",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Republic of Venice",
+          "wikidata_qid": "Q4948",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Isle of Man",
+          "wikidata_qid": "Q9676",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Albanian Principalities",
+          "wikidata_qid": "Q2658979",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Habsburg",
+          "wikidata_qid": "Q65968",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of England)",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Empire of Trebizond",
+          "wikidata_qid": "Q178913",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Georgia",
+          "wikidata_qid": "Q154667",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Poland)",
+          "wikidata_qid": "Q577867",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Vladimir-Suzdal",
+          "wikidata_qid": "Q83546",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Despotate of Arta",
+          "wikidata_qid": "Q2331954",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Old Kingdom of Norway",
+          "wikidata_qid": "Q202266",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Hungary",
+          "wikidata_qid": "Q171150",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Allegiance of Swiss Confederation to Holy Roman Empire)",
+          "wikidata_qid": "Q39",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Jalayirid Sultanate",
+          "wikidata_qid": "Q866716",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crown of Castile",
+          "wikidata_qid": "Q217196",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Grand Principality of Moscow",
+          "wikidata_qid": "Q170770",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Qara Qoyunlu",
+          "wikidata_qid": "Q324470",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Achaea",
+          "wikidata_qid": "Q332005",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Serbian Despots",
+          "wikidata_qid": "Q878319",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Timurid Empire",
+          "wikidata_qid": "Q484195",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Despotate of Vidin",
+          "wikidata_qid": "Q927154",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of France",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of England",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Valona and Kanina",
+          "wikidata_qid": "Q7245121",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Grand Duchy of Lithuania",
+          "wikidata_qid": "Q49683",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Byzantine Empire",
+          "wikidata_qid": "Q112039853",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Pisa",
+          "wikidata_qid": "Q1365493",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Bavaria",
+          "wikidata_qid": "Q47261",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Despotate of Epirus",
+          "wikidata_qid": "Q187684",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Holy Roman Empire Minor States",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Serbian Empire",
+          "wikidata_qid": "Q1406298",
+          "type": "POLITY",
+          "in_play": true
+        }
+      ]
+    },
+    {
+      "board_id": "europe-med-1500",
+      "region": "Europe + Mediterranean",
+      "valid_from": 1500,
+      "valid_to": 1500,
+      "confidence": "source-derived; editorial review pending",
+      "change_note": "Editorial change note pending owner review.",
+      "geojson_url": "/data/border-states/europe-med-1500.geojson.gz",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr.",
+      "source": {
+        "name": "Cliopatria",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.14714684",
+        "artifact": "data/processed/border-states/_intermediate_1500_display.geojson",
+        "simplification": "display detail from clipped source; no simplify and no -clean"
+      },
+      "territories": [
+        {
+          "canonical_name": "County of Urgell",
+          "wikidata_qid": "Q1514510",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Zayyanid dynasty",
+          "wikidata_qid": "Q307697",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Wallachia",
+          "wikidata_qid": "Q171393",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Livonian Conference",
+          "wikidata_qid": "Q33698",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Ragusa",
+          "wikidata_qid": "Q208169",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Hafsid Dynasty",
+          "wikidata_qid": "Q752662",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ryazan",
+          "wikidata_qid": "Q269109",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Qasim Khanate",
+          "wikidata_qid": "Q836169",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Genoa",
+          "wikidata_qid": "Q174306",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Trier",
+          "wikidata_qid": "Q1794352",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Orange",
+          "wikidata_qid": "Q2281221",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Bavaria",
+          "wikidata_qid": "Q47261",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Dulkadir",
+          "wikidata_qid": "Q1264808",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Imereti",
+          "wikidata_qid": "Q1069959",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Abkhazia",
+          "wikidata_qid": "Q1760473",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Samtskhe-Saatabago",
+          "wikidata_qid": "Q2029317",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Georgia",
+          "wikidata_qid": "Q154667",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Mingrelia",
+          "wikidata_qid": "Q2907860",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Golden Horde",
+          "wikidata_qid": "Q79965",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Mamluk Sultanate",
+          "wikidata_qid": "Q282428",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ramadanid Emirate",
+          "wikidata_qid": "Q2261321",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Kakheti",
+          "wikidata_qid": "Q1209822",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Guria",
+          "wikidata_qid": "Q2195101",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Astrakhan Khanate",
+          "wikidata_qid": "Q210163",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Scotland",
+          "wikidata_qid": "Q230791",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Aq Qoyunlu",
+          "wikidata_qid": "Q555994",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kalmar Union)",
+          "wikidata_qid": "Q62623",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Pskov Republic",
+          "wikidata_qid": "Q317078",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Nevers",
+          "wikidata_qid": "Q2070440",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Comtat Venaissin",
+          "wikidata_qid": "Q1122980",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kalmar Union",
+          "wikidata_qid": "Q62623",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Papal States",
+          "wikidata_qid": "Q170174",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of England",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of England)",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crimean Khanate",
+          "wikidata_qid": "Q160440",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Moldavia",
+          "wikidata_qid": "Q10957559",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Florence",
+          "wikidata_qid": "Q148540",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Habsburg",
+          "wikidata_qid": "Q65968",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Hungary",
+          "wikidata_qid": "Q171150",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Bohemia",
+          "wikidata_qid": "Q42585",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of Bohemia)",
+          "wikidata_qid": "Q42585",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Saxony",
+          "wikidata_qid": "Q156199",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Personal union of Kingdom of Bohemia with Kingdom of Hungary)",
+          "wikidata_qid": "Q155599",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "Ottoman Empire",
+          "wikidata_qid": "Q12560",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Venice",
+          "wikidata_qid": "Q4948",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Brandenburg",
+          "wikidata_qid": "Q148499",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Swiss Confederation",
+          "wikidata_qid": "Q39",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Wattasid dynasty",
+          "wikidata_qid": "Q970799",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Portugal",
+          "wikidata_qid": "Q45670",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Habsburg Monarchy",
+          "wikidata_qid": "Q66504140",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Milan",
+          "wikidata_qid": "Q153529",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Savoy",
+          "wikidata_qid": "Q1232887",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Personal union of Crown of Aragon with Crown of Castile)",
+          "wikidata_qid": "Q186851",
+          "type": "RELATION",
+          "in_play": false
+        },
+        {
+          "canonical_name": "(Kingdom of France)",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Habsburg Monarchy)",
+          "wikidata_qid": "Q66504140",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Holy Roman Empire)",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Styria",
+          "wikidata_qid": "Q580447",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Foix",
+          "wikidata_qid": "Q1481436",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Jagiellon",
+          "wikidata_qid": "Q194355",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crown of Aragon",
+          "wikidata_qid": "Q204920",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Teutonic Order",
+          "wikidata_qid": "Q48189",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Holy Roman Empire Minor States",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Naples",
+          "wikidata_qid": "Q173065",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Lorraine",
+          "wikidata_qid": "Q155019",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Bourbon",
+          "wikidata_qid": "Q58389",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of France",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Timurid Empire",
+          "wikidata_qid": "Q484195",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crown of Castile",
+          "wikidata_qid": "Q217196",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Grand Principality of Moscow",
+          "wikidata_qid": "Q170770",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Auvergne",
+          "wikidata_qid": "Q1152",
+          "type": "POLITY",
+          "in_play": true
+        }
+      ]
+    },
+    {
+      "board_id": "europe-med-1700",
+      "region": "Europe + Mediterranean",
+      "valid_from": 1700,
+      "valid_to": 1700,
+      "confidence": "source-derived; editorial review pending",
+      "change_note": "Editorial change note pending owner review.",
+      "geojson_url": "/data/border-states/europe-med-1700.geojson.gz",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr.",
+      "source": {
+        "name": "Cliopatria",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.14714684",
+        "artifact": "data/processed/border-states/_intermediate_1700_display.geojson",
+        "simplification": "display detail from clipped source; no simplify and no -clean"
+      },
+      "territories": [
+        {
+          "canonical_name": "Republic of Ragusa",
+          "wikidata_qid": "Q208169",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Florence",
+          "wikidata_qid": "Q148540",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Guria",
+          "wikidata_qid": "Q2195101",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Kartli",
+          "wikidata_qid": "Q195972",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kalmyk Khanate",
+          "wikidata_qid": "Q4210248",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Bavaria",
+          "wikidata_qid": "Q47261",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Portugal",
+          "wikidata_qid": "Q45670",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Urgell",
+          "wikidata_qid": "Q1514510",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Monaco",
+          "wikidata_qid": "Q235",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Genoa",
+          "wikidata_qid": "Q174306",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Safavid Dynasty",
+          "wikidata_qid": "Q161205",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Papal States",
+          "wikidata_qid": "Q170174",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Sloboda Ukraine",
+          "wikidata_qid": "Q598570",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Denmark-Norway",
+          "wikidata_qid": "Q62651",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Astrakhan Khanate",
+          "wikidata_qid": "Q210163",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Comtat Venaissin",
+          "wikidata_qid": "Q1122980",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Swedish Empire",
+          "wikidata_qid": "Q215443",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Zaporozhian Cossacks",
+          "wikidata_qid": "Q1076173",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Morocco",
+          "wikidata_qid": "Q1028",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Crimean Khanate",
+          "wikidata_qid": "Q160440",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of England",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Small Horde",
+          "wikidata_qid": "Q631210",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Moldavia",
+          "wikidata_qid": "Q10957559",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Tsardom of Russia",
+          "wikidata_qid": "Q186096",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Swiss Confederation",
+          "wikidata_qid": "Q39",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Wallachia",
+          "wikidata_qid": "Q171393",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "House of Savoy",
+          "wikidata_qid": "Q200229",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Lorraine",
+          "wikidata_qid": "Q155019",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Portuguese Empire",
+          "wikidata_qid": "Q200464",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Holy Roman Empire Minor States",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of France",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Mingrelia",
+          "wikidata_qid": "Q2907860",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Imereti",
+          "wikidata_qid": "Q1069959",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Abkhazia",
+          "wikidata_qid": "Q1760473",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Portuguese Empire)",
+          "wikidata_qid": "Q200464",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of England)",
+          "wikidata_qid": "Q179876",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Spanish Empire",
+          "wikidata_qid": "Q80702",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Venice",
+          "wikidata_qid": "Q4948",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ottoman Empire",
+          "wikidata_qid": "Q12560",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Brandenburg-Prussia",
+          "wikidata_qid": "Q157367",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Habsburg Monarchy",
+          "wikidata_qid": "Q66504140",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Polish-Lithuanian Commonwealth",
+          "wikidata_qid": "Q172107",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Dutch Republic)",
+          "wikidata_qid": "Q170072",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Kingdom of France)",
+          "wikidata_qid": "Q207162",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Habsburg Monarchy)",
+          "wikidata_qid": "Q66504140",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Spanish Empire)",
+          "wikidata_qid": "Q80702",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Spain",
+          "wikidata_qid": "Q29",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Dutch Republic",
+          "wikidata_qid": "Q170072",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Holy Roman Empire)",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        }
+      ]
+    },
+    {
+      "board_id": "europe-med-1800",
+      "region": "Europe + Mediterranean",
+      "valid_from": 1800,
+      "valid_to": 1800,
+      "confidence": "source-derived; editorial review pending",
+      "change_note": "Editorial change note pending owner review.",
+      "geojson_url": "/data/border-states/europe-med-1800.geojson.gz",
+      "attribution": "Cliopatria historical polity boundary data by the Seshat Global History Databank, licensed under CC BY 4.0, https://github.com/Seshat-Global-History-Databank/cliopatria. Cite Zenodo DOI: 10.5281/zenodo.14714684. Changes made: clipped to Europe + Mediterranean, normalized feature properties for Empyr.",
+      "source": {
+        "name": "Cliopatria",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.14714684",
+        "artifact": "data/processed/border-states/_intermediate_1800_display.geojson",
+        "simplification": "display detail from clipped source; no simplify and no -clean"
+      },
+      "territories": [
+        {
+          "canonical_name": "Kingdom of Portugal",
+          "wikidata_qid": "Q45670",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Liechtenstein",
+          "wikidata_qid": "Q347",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Swedish Empire",
+          "wikidata_qid": "Q215443",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Morocco",
+          "wikidata_qid": "Q1028",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Guria",
+          "wikidata_qid": "Q2195101",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Republic of Ragusa",
+          "wikidata_qid": "Q208169",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Svaneti",
+          "wikidata_qid": "Q2919545",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Denmark-Norway",
+          "wikidata_qid": "Q62651",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Imereti",
+          "wikidata_qid": "Q1069959",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Abkhazia",
+          "wikidata_qid": "Q1760473",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Mingrelia",
+          "wikidata_qid": "Q2907860",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Saxony",
+          "wikidata_qid": "Q156199",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Moldavia",
+          "wikidata_qid": "Q10957559",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Regency of Algiers",
+          "wikidata_qid": "Q3045696",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Principality of Wallachia",
+          "wikidata_qid": "Q171393",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Batavian Republic",
+          "wikidata_qid": "Q188553",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Beylik of Tunis",
+          "wikidata_qid": "Q4899891",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Karamanli Dynasty",
+          "wikidata_qid": "Q1929987",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Holy Roman Empire)",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Prussia",
+          "wikidata_qid": "Q27306",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "County of Urgell",
+          "wikidata_qid": "Q1514510",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Duchy of Bavaria",
+          "wikidata_qid": "Q47261",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Holy Roman Empire Minor States",
+          "wikidata_qid": "Q12548",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Russian Empire",
+          "wikidata_qid": "Q34266",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Portuguese Empire)",
+          "wikidata_qid": "Q200464",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Qajar Dynasty",
+          "wikidata_qid": "Q189326",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Georgia",
+          "wikidata_qid": "Q154667",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Cispadane Republic",
+          "wikidata_qid": "Q463289",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Sardinia",
+          "wikidata_qid": "Q2577303",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Helvetic Republic",
+          "wikidata_qid": "Q206696",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(French Consulate)",
+          "wikidata_qid": "Q877619",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Electorate of Hanover",
+          "wikidata_qid": "Q706018",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(British Empire)",
+          "wikidata_qid": "Q8680",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Papal States",
+          "wikidata_qid": "Q170174",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Spain",
+          "wikidata_qid": "Q29",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Habsburg Monarchy)",
+          "wikidata_qid": "Q66504140",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Spanish Empire)",
+          "wikidata_qid": "Q80702",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Septinsular Republic",
+          "wikidata_qid": "Q1077630",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Naples (Napoleonic)",
+          "wikidata_qid": "Q48779892",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "(Batavian Republic)",
+          "wikidata_qid": "Q188553",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Grand Duchy of Tuscany",
+          "wikidata_qid": "Q154849",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "French Consulate",
+          "wikidata_qid": "Q877619",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Kingdom of Great Britain",
+          "wikidata_qid": "Q23666",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Habsburg Monarchy",
+          "wikidata_qid": "Q66504140",
+          "type": "POLITY",
+          "in_play": true
+        },
+        {
+          "canonical_name": "Ottoman Empire",
+          "wikidata_qid": "Q12560",
+          "type": "POLITY",
+          "in_play": true
+        }
+      ]
+    }
+  ]
+}
